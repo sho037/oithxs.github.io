@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+
+
+.container {
+    width: 100%;
+}
+
+/* footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+}
