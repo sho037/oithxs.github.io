@@ -1,4 +1,4 @@
 $(function () {
-  $("#header").load("/header.html"); // #headerにheader.htmlを読み込む
-  $("#footer").load("/footer.html");
+  $("#header").load("../share/header.html"); // #headerにheader.htmlを読み込む
+  $("#footer").load("../share/footer.html");
 });
