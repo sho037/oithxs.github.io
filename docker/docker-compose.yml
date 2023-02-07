@@ -11,6 +11,6 @@ services:
     command: >
       bash -c "
         bundle install --path vendor/bundle
-        bundle exec jekyll serve --no-watch --force_polling --incremental --trace --host=0.0.0.0
+        bundle exec jekyll serve --watch --force_polling --incremental --trace --host=0.0.0.0
         "
     tty: true
