@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+}
+
+/* HxSの画像 */
+#hxs-image {
+  background-size: cover;
+  background-image: url(..//images/hxs_image.png);
+}
+#hxs-name {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.push {
+  padding-top: 10%;
+}
