@@ -8,5 +8,5 @@ COPY ../../src/Gemfile* ./
 RUN bundle install --path vendor/bundle
 COPY ../../src/. .
 
-# EXPOSE 4000
+EXPOSE 4000
 # CMD ["bundle", "exec", "jekyll", "serve", "--host=0.0.0.0"]

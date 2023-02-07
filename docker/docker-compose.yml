@@ -8,5 +8,9 @@ services:
       - "4000:4000"
     volumes:
       - ../src/.:/app
-    command: bundle install --path vendor/bundle && bundle exec jekyll serve --force_polling --host --incremental --trace --no-watch
+    command: >
+      bash -c "
+        bundle install --path vendor/bundle
+        bundle exec jekyll serve --no-watch --force_polling --incremental --trace --host=0.0.0.0
+        "
     tty: true
