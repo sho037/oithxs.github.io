@@ -20,7 +20,7 @@ social:
   links:
     - https://github.com/CloudCannon/urban-jekyll-template
 
-timezone: Etc/UTC
+timezone: Asia/Tokyo
 
 collections:
   staff_members:
