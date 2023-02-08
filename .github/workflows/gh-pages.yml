@@ -16,6 +16,7 @@ jobs:
           bundle config set path 'vendor/bundle'
           bundle install
       - name: jekyll build
+        working-directory: ./src/.
         run: bundle exec jekyll build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
