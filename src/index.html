@@ -1,0 +1,42 @@
+---
+title: Urban
+---
+
+<section class="hero diagonal">
+	<div class="container">
+		<h2 class="editable">We build websites</h2>
+		<p class="subtext editable">こちらはHxSコンピュータ部の公式サイトです。HxSについては<strong><a href="{{ site.baseurl }}/about/">こちら</a></strong>を参照ください。</p>
+		<p><a class="button alt" href="{{ site.baseurl }}/contact/">Contact Us</a></p>
+	</div>
+</section>
+
+<section class="diagonal patterned">
+	<div class="container halves">
+		<div>
+			<h3 class="editable">Some of our work</h3>
+			<p class="editable">私たちは複数の成果物を出しています。下のリンクからご参照ください！</p>
+			<p class="editable"><a href="{{ site.baseurl }}/portfolio/">View Full Portfolio &rarr;</a></p>
+		</div>
+		<div>
+			<ul class="image-grid">
+				{% for client in site.clients limit: 4 %}
+					<li><a href="{{ site.baseurl }}{{ client.url }}"><img src="{% include relative-src.html src=client.image_path %}"></a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>
+
+<section class="diagonal alternate">
+	<div class="container halves">
+		<div>
+			<ul class="image-list">
+				<li><img src="{{ site.baseurl }}/images/jekyll-logo-black-red-transparent.png" width="300"></li>
+			</ul>
+		</div>
+		<div>
+			<h3 class="editable">Latest software, greatest perfomance</h3>
+			<p class="editable">こちらのサイトはJekyllにて生成しています。使用しているテーマは<a href="https://github.com/CloudCannon/urban-jekyll-template">urban</a>です。</p>
+		</div>
+	</div>
+</section>

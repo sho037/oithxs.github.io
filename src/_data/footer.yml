@@ -1,0 +1,18 @@
+- title: Pages
+  links:
+    - name: Home
+      link: /
+    - name: Portfolio
+      link: /portfolio/
+    - name: Blog
+      link: /blog/
+    - name: About
+      link: /about/
+    - name: Contact
+      link: /contact/
+- title: Social
+  links:
+    - name: Twitter
+      link: https://twitter.com/hxs_/
+      social_icon: Twitter
+      new_window: true
