@@ -12,6 +12,7 @@ jobs:
         with:
           ruby-version: 2.7
       - name: bundle install
+        working-directory: ./src/.
         run: |
           bundle config set path 'vendor/bundle'
           bundle install
